@@ -1,0 +1,28 @@
+{
+    "clients": [
+        {
+            "id":5112,
+            "name": "Ivanov",
+            "budget": 100000,
+            "status":true
+        },
+        {
+            "id":12124,
+            "name": "Petrov",
+            "budget": 10,
+            "status":false
+        },
+        {
+            "id":125654,
+            "name": "Sidarov",
+            "budget": 2000,
+            "status":true
+        },
+        {
+            "id":75621,
+            "name": "Ivanov",
+            "budget": 10,
+            "status":true
+        }
+        ]
+}

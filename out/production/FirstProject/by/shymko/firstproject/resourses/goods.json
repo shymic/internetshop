@@ -1,0 +1,36 @@
+{
+    "goods": [
+        {
+            "id":1111111,
+            "name": "Phones",
+            "prise": 200,
+            "sale":10,
+            "info":"good phone",
+            "quantity":5
+        },
+        {
+            "id":2222222,
+            "name": "TV",
+            "prise": 5000,
+            "sale":100,
+            "info":"good TV",
+            "quantity":4
+        },
+        {
+            "id":333333333,
+            "name": "printer",
+            "prise": 1000,
+            "sale":60,
+            "info":"good printer",
+            "quantity":10
+        },
+        {
+            "id":44444,
+            "name": "scanner",
+            "prise": 800,
+            "sale":50,
+            "info":"good scanner",
+            "quantity":8
+        }
+    ]
+}
