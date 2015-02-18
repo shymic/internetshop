@@ -1,7 +1,7 @@
-18.02.2015 22:17:57 [main] INFO  by.shymko.firstproject.main.Main  - Start
-18.02.2015 22:17:57 [main] DEBUG by.shymko.firstproject.initializators.ReadData  - src\by\shymko\firstproject\resourses\clients.json file opened
-18.02.2015 22:17:57 [main] DEBUG by.shymko.firstproject.initializators.ReadData  - src\by\shymko\firstproject\resourses\goods.json file opened
-18.02.2015 22:17:57 [main] INFO  by.shymko.firstproject.main.Main  - Shop{staff=[Administrator{id=123
+18.02.2015 22:30:06 [main] INFO  by.shymko.firstproject.main.Main  - Start
+18.02.2015 22:30:06 [main] DEBUG by.shymko.firstproject.initializators.ReadData  - clients file opened
+18.02.2015 22:30:06 [main] DEBUG by.shymko.firstproject.initializators.ReadData  - goods file opened
+18.02.2015 22:30:06 [main] INFO  by.shymko.firstproject.main.Main  - Shop{staff=[Administrator{id=123
 , name='admin
 contact='admin@tut.by
 , priseList=[Good{id=1111111, name='Phones', prise=200, sale=10, info='good phone', quantity=5}
@@ -32,39 +32,4 @@ contact='admin@tut.by
 , Client{id=75621, name='Ivanovorder=null, budget=10, activity=true}
 ]
 }}
-18.02.2015 22:17:57 [main] DEBUG by.shymko.firstproject.main.Main  - finish
-18.02.2015 22:18:09 [main] INFO  by.shymko.firstproject.main.Main  - Start
-18.02.2015 22:18:09 [main] DEBUG by.shymko.firstproject.initializators.ReadData  - src\by\shymko\firstproject\resourses\clients.json file opened
-18.02.2015 22:18:09 [main] DEBUG by.shymko.firstproject.initializators.ReadData  - src\by\shymko\firstproject\resourses\goods.json file opened
-18.02.2015 22:18:09 [main] INFO  by.shymko.firstproject.main.Main  - Shop{staff=[Administrator{id=123
-, name='admin
-contact='admin@tut.by
-, priseList=[Good{id=1111111, name='Phones', prise=200, sale=10, info='good phone', quantity=5}
-, Good{id=2222222, name='TV', prise=5000, sale=100, info='good TV', quantity=4}
-, Good{id=333333333, name='printer', prise=1000, sale=60, info='good printer', quantity=10}
-, Good{id=44444, name='scanner', prise=800, sale=50, info='good scanner', quantity=8}
-]
-, clientList=[Client{id=5112, name='Ivanovorder=null, budget=100000, activity=true}
-, Client{id=12124, name='Petrovorder=null, budget=10, activity=false}
-, Client{id=125654, name='Sidarovorder=null, budget=2000, activity=true}
-, Client{id=75621, name='Ivanovorder=null, budget=10, activity=true}
-]
-}, Client{id=5112, name='Ivanovorder=null, budget=100000, activity=true}
-, Client{id=12124, name='Petrovorder=null, budget=10, activity=false}
-, Client{id=125654, name='Sidarovorder=null, budget=2000, activity=true}
-, Client{id=75621, name='Ivanovorder=null, budget=10, activity=true}
-], admin=Administrator{id=123
-, name='admin
-contact='admin@tut.by
-, priseList=[Good{id=1111111, name='Phones', prise=200, sale=10, info='good phone', quantity=5}
-, Good{id=2222222, name='TV', prise=5000, sale=100, info='good TV', quantity=4}
-, Good{id=333333333, name='printer', prise=1000, sale=60, info='good printer', quantity=10}
-, Good{id=44444, name='scanner', prise=800, sale=50, info='good scanner', quantity=8}
-]
-, clientList=[Client{id=5112, name='Ivanovorder=null, budget=100000, activity=true}
-, Client{id=12124, name='Petrovorder=null, budget=10, activity=false}
-, Client{id=125654, name='Sidarovorder=null, budget=2000, activity=true}
-, Client{id=75621, name='Ivanovorder=null, budget=10, activity=true}
-]
-}}
-18.02.2015 22:18:09 [main] DEBUG by.shymko.firstproject.main.Main  - finish
+18.02.2015 22:30:06 [main] DEBUG by.shymko.firstproject.main.Main  - finish

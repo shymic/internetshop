@@ -1,14 +1,11 @@
 package by.shymko.firstproject.administrator;
 
-import by.shymko.firstproject.JSONRecord;
 import by.shymko.firstproject.client.Client;
 import by.shymko.firstproject.exceptions.IdNotFoundException;
 import by.shymko.firstproject.goods.Good;
 import by.shymko.firstproject.list.ClientList;
 import by.shymko.firstproject.list.GoodsList;
 import by.shymko.firstproject.user.User;
-
-import java.util.ArrayList;
 
 
 /**
@@ -20,11 +17,11 @@ public class Administrator extends User{
     private ClientList clientList;
 
     public Administrator(int id, String name, String contact,
-                         ArrayList<JSONRecord> clientList, ArrayList<JSONRecord> priseList) {
+                         ClientList clientList, GoodsList priseList) {
         super(id, name);
         this.contact = contact;
-        this.priseList = new GoodsList(priseList);
-        this.clientList = new ClientList(clientList);
+        this.priseList = priseList;
+        this.clientList = clientList;
     }
 
     public Administrator(int id, String name, String contact) {

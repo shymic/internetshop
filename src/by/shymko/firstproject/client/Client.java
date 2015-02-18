@@ -1,10 +1,7 @@
 package by.shymko.firstproject.client;
 
-import by.shymko.firstproject.JSONRecord;
-import by.shymko.firstproject.exceptions.ReadFileNotFoundException;
 import by.shymko.firstproject.list.GoodsList;
 import by.shymko.firstproject.user.User;
-import org.json.simple.JSONObject;
 
 
 /**
@@ -15,7 +12,7 @@ public class Client extends User {
     private int budget;
     private boolean activity;
 
-    public Client(int id, String name) {
+    protected Client(int id, String name) {
         super(id, name);
     }
 
@@ -57,14 +54,5 @@ public class Client extends User {
                 ", budget=" + budget +
                 ", activity=" + activity +
                 '}'+ '\n';
-    }
-
-    @Override
-    public JSONRecord read(JSONObject jsObject) {
-        Long id = (Long) jsObject.get("id");
-        String name = (String) jsObject.get("name");
-        Long budget = (Long) jsObject.get("budget");
-        boolean status = (Boolean) jsObject.get("status");
-        return new Client(id.intValue(), name, budget.intValue(), status);
     }
 }

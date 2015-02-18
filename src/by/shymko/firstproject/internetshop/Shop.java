@@ -1,9 +1,7 @@
 package by.shymko.firstproject.internetshop;
 
 import by.shymko.firstproject.administrator.Administrator;
-import by.shymko.firstproject.client.Client;
 import by.shymko.firstproject.exceptions.ReadFileNotFoundException;
-import by.shymko.firstproject.goods.Good;
 import by.shymko.firstproject.initializators.ReadData;
 import by.shymko.firstproject.user.User;
 import org.json.simple.parser.ParseException;
@@ -27,9 +25,8 @@ public class Shop {
         return admin;
     }
 
-    public Shop(String clientsFilename, String goodsFilename) throws ParseException, IOException, ReadFileNotFoundException {
-        admin = new Administrator(123, "admin", "admin@tut.by", ReadData.read(clientsFilename, "clients", new Client(0, "tmp")),
-                ReadData.read(goodsFilename, "goods", new Good()) );
+    public Shop() throws ParseException, IOException, ReadFileNotFoundException {
+        admin = new Administrator(123, "admin", "admin@tut.by", ReadData.readClients(), ReadData.readGoods() );
         initStaff();
     }
 
